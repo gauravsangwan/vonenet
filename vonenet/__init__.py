@@ -5,6 +5,7 @@ import requests
 
 from .vonenet import VOneNet
 from torch.nn import Module
+from .vonenet import VOneNet_Custom
 
 FILE_WEIGHTS = {'alexnet': 'vonealexnet_e70.pth.tar', 'resnet50': 'voneresnet50_e70.pth.tar',
                 'resnet50_at': 'voneresnet50_at_e96.pth.tar', 'cornets': 'vonecornets_e70.pth.tar',

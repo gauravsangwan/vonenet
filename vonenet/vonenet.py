@@ -66,3 +66,5 @@ def VOneNet(sf_corr=0.75, sf_max=9, sf_min=0, rand_param=False, gabor_seed=0,
     model.arch_params = arch_params
 
     return model
+
+
